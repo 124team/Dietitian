@@ -1,4 +1,4 @@
-package edu.neusoft.a124team.dietitian.WangHan;
+package edu.neusoft.a124team.dietitian.wangHan;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package edu.neusoft.a124team.dietitian.HaoDengKe;
+package edu.neusoft.a124team.dietitian.haoDengKe;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
