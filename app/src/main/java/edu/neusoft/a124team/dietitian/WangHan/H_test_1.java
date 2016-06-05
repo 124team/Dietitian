@@ -11,5 +11,6 @@ public class H_test_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_h_test_2);
+        System.out.println("测试");
     }
 }
