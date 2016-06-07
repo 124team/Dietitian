@@ -30,6 +30,8 @@
         </activity>
         <activity android:name=".haoDengKe.H_milk">
         </activity>
+        <activity android:name=".haoDengKe.H_breakfast_item2">
+        </activity>
     </application>
 
 </manifest>

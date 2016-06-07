@@ -78,13 +78,70 @@ public class H_breakfast extends AppCompatActivity {
                         Intent intent=new Intent();
                         intent.setClass(H_breakfast.this,H_milk.class);
                         startActivity(intent);
+                        break;
+                    case 1:
+                        expressItemClickOne(1);
+                        break;
+
+                    case 2:
+                        expressItemClickTwo(2);
+                        break;
+                    case 3:
+                        expressItemClickThree(3);
+                        break;
+                    case 4:
+                        expressItemClickFour(4);
+                        break;
+                    case 5:
+                        expressItemClickFive(5);
+                        break;
                 }
 
             }
         });
 
-    }
 
+    }
+    public void expressItemClickOne(int position){
+        Intent intent = new Intent(this, H_breakfast_item2.class);
+        int img=R.drawable.hbreakfastitem2;
+        intent.putExtra("Content", "所在区域：大连市甘井子区8号");
+        intent.putExtra("Title", "红枣鸡蛋发糕");
+        intent.putExtra("img",img);
+        startActivity(intent);
+    }
+    public void expressItemClickTwo(int position){
+        Intent intent = new Intent(this, H_breakfast_item2.class);
+        int img=R.drawable.hbreakfastitem3;
+        intent.putExtra("Content", "所在区域：大连市甘井子区8号");
+        intent.putExtra("Title", "香煎土豆丝鸡蛋饼");
+        intent.putExtra("img",img);
+        startActivity( intent);
+    }
+    public void expressItemClickThree(int position){
+        Intent intent = new Intent(this, H_breakfast_item2.class);
+        int img=R.drawable.hbreakfastitem4;
+        intent.putExtra("Content", "所在区域：大连市甘井子区8号");
+        intent.putExtra("Title", "鸡蛋羹");
+        intent.putExtra("img",img);
+        startActivity( intent);
+    }
+    public void expressItemClickFour(int position){
+        Intent intent = new Intent(this, H_breakfast_item2.class);
+        int img=R.drawable.hbreakfastitem5;
+        intent.putExtra("Content", "所在区域：大连市甘井子区8号");
+        intent.putExtra("Title", "土豆鸡蛋饼");
+        intent.putExtra("img",img);
+        startActivity( intent);
+    }
+    public void expressItemClickFive(int position){
+        Intent intent = new Intent(this, H_breakfast_item2.class);
+        int img=R.drawable.hbreakfastitem6;
+        intent.putExtra("Content", "所在区域：大连市甘井子区8号");
+        intent.putExtra("Title", "面包咖啡");
+        intent.putExtra("img", img);
+        startActivity( intent);
+    }
     class MySimpleAdapter extends SimpleAdapter {
         public MySimpleAdapter(Context context, List<? extends Map<String,Object>> data, int  resource,
                                String[] from, int[] to){
