@@ -1,9 +1,11 @@
 package edu.neusoft.a124team.dietitian.haoDengKe;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -111,12 +113,13 @@ public class H_breakfast extends AppCompatActivity {
         startActivity(intent);
     }
     public void expressItemClickTwo(int position){
-        Intent intent = new Intent(this, H_breakfast_item2.class);
-        int img=R.drawable.hbreakfastitem3;
-        intent.putExtra("Content", "所在区域：大连市甘井子区8号");
-        intent.putExtra("Title", "香煎土豆丝鸡蛋饼");
-        intent.putExtra("img",img);
-        startActivity( intent);
+        new AlertDialog.Builder(this).setTitle("我的提示").setMessage("确定要删除吗？")
+                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                }).show();
     }
     public void expressItemClickThree(int position){
         Intent intent = new Intent(this, H_breakfast_item2.class);
