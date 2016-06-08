@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
            android:scaleType="fitXY"
-            android:src="@drawable/img_slide_nutrition1"
+            android:src="@drawable/y_img_slide_nutrition1"
             android:id="@+id/img_nutrition" />
         <EditText
             android:layout_width="326dp"
@@ -31,7 +31,7 @@
             android:hint="营养师、等级、人群"
             android:textSize="14sp"
             android:textColor="#fa2d302f"
-            android:drawableLeft="@drawable/img_search_bar_magnifier"
+            android:drawableLeft="@drawable/y_img_search_bar_magnifier"
             android:singleLine="true"
             android:background="@drawable/consult_search_bar"/>
         <!--上部分表格*************************************************************-->
@@ -60,7 +60,7 @@
                         android:gravity="center_horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/levelOne"
+                        android:text="@string/y_levelOne"
                         />
                 </RelativeLayout>
                 <RelativeLayout
@@ -76,7 +76,7 @@
                         android:gravity="center_horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/levelTwo"
+                        android:text="@string/y_levelTwo"
                         android:id="@+id/levelTwo"
                         />
                 </RelativeLayout>
@@ -93,7 +93,7 @@
                         android:gravity="center_horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/levelThree"
+                        android:text="@string/y_levelThree"
                         android:id="@+id/levelThree"
                         />
                 </RelativeLayout>
@@ -110,7 +110,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/levelFour"
+                        android:text="@string/y_levelFour"
                         android:id="@+id/levelFour"
                         />
                 </RelativeLayout>
@@ -134,7 +134,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/children"
+                        android:text="@string/y_children"
                         android:id="@+id/children"
                         />
                 </RelativeLayout>
@@ -151,7 +151,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/old"
+                        android:text="@string/y_old"
                         android:id="@+id/old"
                         />
                 </RelativeLayout>
@@ -169,7 +169,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/teenage"
+                        android:text="@string/y_teenage"
                         android:id="@+id/teenage"
                         />
                 </RelativeLayout>
@@ -186,7 +186,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/baby"
+                        android:text="@string/y_baby"
                         android:id="@+id/baby"
                         />
                 </RelativeLayout>
@@ -209,7 +209,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/pregnant"
+                        android:text="@string/y_pregnant"
                         android:id="@+id/pregnant"
                         />
                 </RelativeLayout>
@@ -226,7 +226,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/patient"
+                        android:text="@string/y_patient"
                         android:id="@+id/patient"
                         />
                 </RelativeLayout>
@@ -243,7 +243,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/omnipotent"
+                        android:text="@string/y_omnipotent"
                         android:id="@+id/omnipotent"
                         />
                 </RelativeLayout>
@@ -260,7 +260,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/sleep"
+                        android:text="@string/y_sleep"
                         android:id="@+id/sleep"
                         />
                 </RelativeLayout>
@@ -283,7 +283,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/weightLose"
+                        android:text="@string/y_weightLose"
                         android:id="@+id/weightLose"
                         />
                 </RelativeLayout>
@@ -300,7 +300,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/heighten"
+                        android:text="@string/y_heighten"
                         android:id="@+id/heighten"
                         />
                 </RelativeLayout>
@@ -317,7 +317,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/intelligence"
+                        android:text="@string/y_intelligence"
                         android:id="@+id/intelligence"
                         />
                 </RelativeLayout>
@@ -334,7 +334,7 @@
                         android:background="#CCffff"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/more"
+                        android:text="@string/y_more"
                         android:id="@+id/more"
                         />
                 </RelativeLayout>
@@ -350,7 +350,9 @@
             android:layout_marginTop="12dp"
             android:background="#ffCCCCCC"
             >
-        <LinearLayout
+
+            <!--第一行全能********************************************** -->
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="28dp"
             android:orientation="horizontal"
@@ -365,10 +367,10 @@
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/omnipotent"
+                android:text="@string/y_omnipotent"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
-                android:id="@+id/omnipotent2"/>
+                android:id="@+id/y_omnipotent2"/>
             <TextView
                 android:layout_marginBottom="0.5dip"
                 android:layout_marginTop="0.5dip"
@@ -379,16 +381,15 @@
                 android:id="@+id/all2"
                 android:layout_gravity="end|center_vertical"
                 android:paddingRight="8dp"
-                android:drawableRight="@drawable/img_nutr_expansion"
-                android:text="@string/all_first_page"/>
+                android:drawableRight="@drawable/y_img_nutr_expansion"
+                android:text="@string/y_all_first_page"/>
         </LinearLayout>
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FFCCFFFF"
                 android:paddingTop="4dp"
-                android:paddingBottom="4dp"
-            >
+                android:paddingBottom="4dp">
                 <TableRow>
                     <RelativeLayout
                         android:layout_weight="1"
@@ -399,22 +400,22 @@
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/img_nutr_head"
-                        android:id="@+id/img_nutr_head1"/>
+                        android:src="@drawable/y_img_nutr_head"
+                        android:id="@+id/y_img_nutr_head1"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/name_of_nur1"
-                            android:layout_below="@+id/img_nutr_head1"
+                            android:text="@string/y_name_of_nur1"
+                            android:layout_below="@+id/y_img_nutr_head1"
                             android:layout_centerHorizontal="true"
-                            android:id="@+id/name_of_nur1"
+                            android:id="@+id/y_name_of_nur1"
                             />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/levelOne"
+                            android:text="@string/y_levelOne"
                             android:layout_centerHorizontal="true"
-                            android:layout_below="@+id/name_of_nur1"
+                            android:layout_below="@+id/y_name_of_nur1"
                          />
                     </RelativeLayout>
                     <RelativeLayout
@@ -426,22 +427,22 @@
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/img_nutr_head"
-                        android:id="@+id/img_nutr_head2"/>
+                        android:src="@drawable/y_img_nutr_head"
+                        android:id="@+id/y_img_nutr_head2"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/name_of_nur1"
-                            android:layout_below="@+id/img_nutr_head2"
+                            android:text="@string/y_name_of_nur1"
+                            android:layout_below="@+id/y_img_nutr_head2"
                             android:layout_centerHorizontal="true"
-                            android:id="@+id/name_of_nur2"
+                            android:id="@+id/y_name_of_nur2"
                             />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/levelOne"
+                            android:text="@string/y_levelOne"
                             android:layout_centerHorizontal="true"
-                            android:layout_below="@+id/name_of_nur2"
+                            android:layout_below="@+id/y_name_of_nur2"
                             />
                     </RelativeLayout>
                     <RelativeLayout
@@ -453,8 +454,23 @@
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/img_nutr_head"
-                        android:id="@+id/img_nutr_head3"/>
+                        android:src="@drawable/y_img_nutr_head"
+                        android:id="@+id/y_img_nutr_head3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_name_of_nur1"
+                            android:layout_below="@+id/y_img_nutr_head3"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/y_name_of_nur3"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_levelOne"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/y_name_of_nur3"
+                            />
                     </RelativeLayout>
                     <RelativeLayout
                         android:layout_weight="1"
@@ -465,18 +481,29 @@
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/img_nutr_head"
-                        android:id="@+id/img_nutr_head4"/>
+                        android:src="@drawable/y_img_nutr_head"
+                        android:id="@+id/y_img_nutr_head4"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_name_of_nur1"
+                            android:layout_below="@+id/y_img_nutr_head4"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/y_name_of_nur4"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_levelOne"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/y_name_of_nur4"
+                            />
                     </RelativeLayout>
-                </TableRow>
-
-                <TableRow>
-
-                </TableRow>
-                <TableRow>
-
                 </TableRow>
             </TableLayout>
+            <!--第一行全能结束********************************************* -->
+
+            <!--第二行儿童*********************************************** -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="28dp"
@@ -492,10 +519,10 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/children"
+                    android:text="@string/y_children"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="8dp"
-                    android:id="@+id/children2"/>
+                    android:id="@+id/y_children2"/>
                 <TextView
                     android:layout_marginBottom="0.5dip"
                     android:layout_marginTop="0.5dip"
@@ -506,8 +533,8 @@
                     android:id="@+id/all3"
                     android:layout_gravity="end|center_vertical"
                     android:paddingRight="8dp"
-                    android:drawableRight="@drawable/img_nutr_expansion"
-                    android:text="@string/all_first_page"/>
+                    android:drawableRight="@drawable/y_img_nutr_expansion"
+                    android:text="@string/y_all_first_page"/>
             </LinearLayout>
             <TableLayout
                 android:layout_width="match_parent"
@@ -521,52 +548,113 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal|center_vertical"
                     >
                     <ImageView
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
-                        android:src="@drawable/img_nutr_head"
-                        android:id="@+id/img_nutr_head5"/>
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/y_img_nutr_head"
+                        android:id="@+id/y_img_nutr_head5"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_name_of_nur1"
+                        android:layout_below="@+id/y_img_nutr_head5"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/y_name_of_nur5"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_levelOne"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/y_name_of_nur5"
+                        />
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal|center_vertical"
                     >
                     <ImageView
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
-                        android:src="@drawable/img_nutr_head"
-                        android:id="@+id/img_nutr_head6"/>
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/y_img_nutr_head"
+                        android:id="@+id/y_img_nutr_head6"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_name_of_nur1"
+                        android:layout_below="@+id/y_img_nutr_head6"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/y_name_of_nur6"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_levelOne"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/y_name_of_nur6"
+                        />
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal|center_vertical"
                     >
                     <ImageView
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
-                        android:src="@drawable/img_nutr_head"
-                        android:id="@+id/img_nutr_head7"/>
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/y_img_nutr_head"
+                        android:id="@+id/y_img_nutr_head7"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_name_of_nur1"
+                        android:layout_below="@+id/y_img_nutr_head7"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/y_name_of_nur7"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_levelOne"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/y_name_of_nur7"
+                        />
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal|center_vertical"
                     >
                     <ImageView
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
-                        android:src="@drawable/img_nutr_head"
-                        android:id="@+id/img_nutr_head8"/>
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/y_img_nutr_head"
+                        android:id="@+id/y_img_nutr_head8"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_name_of_nur1"
+                        android:layout_below="@+id/y_img_nutr_head8"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/y_name_of_nur8"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_levelOne"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/y_name_of_nur8"
+                        />
                 </RelativeLayout>
             </TableRow>
             </TableLayout>
+            <!--第二行儿童结束*********************************************** -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="28dp"
@@ -582,10 +670,10 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/old"
+                    android:text="@string/y_old"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="8dp"
-                    android:id="@+id/old2"/>
+                    android:id="@+id/y_old2"/>
                 <TextView
                     android:layout_marginBottom="0.5dip"
                     android:layout_marginTop="0.5dip"
@@ -596,8 +684,8 @@
                     android:id="@+id/all4"
                     android:layout_gravity="end|center_vertical"
                     android:paddingRight="8dp"
-                    android:drawableRight="@drawable/img_nutr_expansion"
-                    android:text="@string/all_first_page"/>
+                    android:drawableRight="@drawable/y_img_nutr_expansion"
+                    android:text="@string/y_all_first_page"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -614,10 +702,10 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/teenage"
+                    android:text="@string/y_teenage"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="8dp"
-                    android:id="@+id/teenage2"/>
+                    android:id="@+id/y_teenage2"/>
                 <TextView
                     android:layout_marginBottom="0.5dip"
                     android:layout_marginTop="0.5dip"
@@ -628,8 +716,8 @@
                     android:id="@+id/all5"
                     android:layout_gravity="end|center_vertical"
                     android:paddingRight="8dp"
-                    android:drawableRight="@drawable/img_nutr_expansion"
-                    android:text="@string/all_first_page"/>
+                    android:drawableRight="@drawable/y_img_nutr_expansion"
+                    android:text="@string/y_all_first_page"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -646,7 +734,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/baby"
+                    android:text="@string/y_baby"
                     android:layout_gravity="center_vertical"
                     android:layout_marginStart="8dp"
                     android:id="@+id/baby2"/>
@@ -657,11 +745,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
-                    android:id="@+id/all6"
+                    android:id="@+id/y_all6"
                     android:layout_gravity="end|center_vertical"
                     android:paddingRight="8dp"
-                    android:drawableRight="@drawable/img_nutr_expansion"
-                    android:text="@string/all_first_page"/>
+                    android:drawableRight="@drawable/y_img_nutr_expansion"
+                    android:text="@string/y_all_first_page"/>
             </LinearLayout>
 
         </LinearLayout>
