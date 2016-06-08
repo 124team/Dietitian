@@ -18,7 +18,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="385dp"
-                android:src="@drawable/himageviewribs" />
+                android:src="@drawable/h_imageview_ribs" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -315,31 +315,31 @@
                     android:layout_width="match_parent"
                     android:layout_height="400dp"
                     android:layout_weight="1"
-                    android:src="@drawable/himageviewribs_step1"
+                    android:src="@drawable/h_imageview_ribs_step1"
                     />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="400dp"
                     android:layout_weight="1"
-                    android:src="@drawable/himageviewribs_step2"
+                    android:src="@drawable/h_imageview_ribs_step2"
                     android:layout_gravity="center_horizontal" />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="400dp"
                     android:layout_weight="1"
-                    android:src="@drawable/himageviewribs_step3"
+                    android:src="@drawable/h_imageview_ribs_step3"
                     android:layout_gravity="center_horizontal" />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="400dp"
                     android:layout_weight="1"
-                    android:src="@drawable/himageviewribs_step4"
+                    android:src="@drawable/h_imageview_ribs_step4"
                     android:layout_gravity="center_horizontal" />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="400dp"
                     android:layout_weight="1"
-                    android:src="@drawable/himageviewribs_step5"
+                    android:src="@drawable/h_imageview_ribs_step5"
                     android:layout_gravity="center_horizontal" />
             </LinearLayout>
             <LinearLayout
@@ -349,7 +349,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="400dp"
                     android:layout_weight="1"
-                    android:src="@drawable/himageviewribs_step6"
+                    android:src="@drawable/h_imageview_ribs_step6"
                     android:layout_gravity="center_horizontal" />
             </LinearLayout>
             <TextView

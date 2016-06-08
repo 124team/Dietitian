@@ -31,31 +31,31 @@ public class H_breakfast extends AppCompatActivity {
         listView=(ListView)findViewById(R.id.listView);
 
         HashMap<String,Object> map=new HashMap<>();
-        map.put("img",R.drawable.hbreakfastitem1);
+        map.put("img",R.drawable.h_breakfast_item1);
         map.put("Title","牛奶布丁");
         map.put("Content", "9步/<60分钟");
         map.put("details", "咸鲜味/煎");
         HashMap<String, Object> map2=new HashMap<String, Object>();
         data.add(map);
-        map2.put("img", R.drawable.hbreakfastitem2);
+        map2.put("img", R.drawable.h_breakfast_item2);
         map2.put("Title","红枣鸡蛋发糕");
         map2.put("Content", "8步/<60分钟");
         map2.put("details","甜味/蒸");
         data.add(map2);
         HashMap<String, Object> map3=new HashMap<String, Object>();
-        map3.put("img", R.drawable.hbreakfastitem3);
+        map3.put("img", R.drawable.h_breakfast_item3);
         map3.put("Title","香煎土豆丝鸡蛋饼");
         map3.put("Content", "8步/<10分钟");
         map3.put("details","咸鲜味/煎");
         data.add(map3);
         HashMap<String, Object> map4=new HashMap<String, Object>();
-        map4.put("img", R.drawable.hbreakfastitem4);
+        map4.put("img", R.drawable.h_breakfast_item4);
         map4.put("Title","鸡蛋羹");
         map4.put("Content", "6步/<30分钟");
         map4.put("details","咸鲜味/蒸");
         data.add(map4);
         HashMap<String, Object> map5=new HashMap<String, Object>();
-        map5.put("img", R.drawable.hbreakfastitem5);
+        map5.put("img", R.drawable.h_breakfast_item5);
         map5.put("Title","土豆鸡蛋饼");
         map5.put("Content", "9步/<15分钟");
         map5.put("details","咸鲜味/煎");
@@ -105,7 +105,7 @@ public class H_breakfast extends AppCompatActivity {
     }
     public void expressItemClickOne(int position){
         Intent intent = new Intent(this, H_breakfast_item2.class);
-        int img=R.drawable.hbreakfastitem2;
+        int img=R.drawable.h_breakfast_item2;
         intent.putExtra("Content", "所在区域：大连市甘井子区8号");
         intent.putExtra("Title", "红枣鸡蛋发糕");
         intent.putExtra("img",img);
@@ -124,7 +124,7 @@ public class H_breakfast extends AppCompatActivity {
     }
     public void expressItemClickThree(int position){
         Intent intent = new Intent(this, H_breakfast_item2.class);
-        int img=R.drawable.hbreakfastitem4;
+        int img=R.drawable.h_breakfast_item4;
         intent.putExtra("Content", "所在区域：大连市甘井子区8号");
         intent.putExtra("Title", "鸡蛋羹");
         intent.putExtra("img",img);
@@ -132,7 +132,7 @@ public class H_breakfast extends AppCompatActivity {
     }
     public void expressItemClickFour(int position){
         Intent intent = new Intent(this, H_breakfast_item2.class);
-        int img=R.drawable.hbreakfastitem5;
+        int img=R.drawable.h_breakfast_item5;
         intent.putExtra("Content", "所在区域：大连市甘井子区8号");
         intent.putExtra("Title", "土豆鸡蛋饼");
         intent.putExtra("img",img);
@@ -140,7 +140,7 @@ public class H_breakfast extends AppCompatActivity {
     }
     public void expressItemClickFive(int position){
         Intent intent = new Intent(this, H_breakfast_item2.class);
-        int img=R.drawable.hbreakfastitem6;
+        int img=R.drawable.h_breakfast_item6;
         intent.putExtra("Content", "所在区域：大连市甘井子区8号");
         intent.putExtra("Title", "面包咖啡");
         intent.putExtra("img", img);
