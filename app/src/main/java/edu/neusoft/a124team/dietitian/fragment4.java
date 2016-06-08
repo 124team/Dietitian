@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 import edu.neusoft.a124team.dietitian.haoDengKe.H_breakfast;
+import edu.neusoft.a124team.dietitian.haoDengKe.H_search;
 import edu.neusoft.a124team.dietitian.haoDengKe.H_ribs;
 
 
@@ -25,7 +26,7 @@ public class fragment4 extends Fragment {
     private Spinner spinner2;
     private Spinner spinner3;
     private List<Map<String, Object>> data_list;
-
+    private ImageButton hImageButtonSearch;
     private ImageButton hImageButtonOnclick1;
     private ImageButton hImageButtonOnclick5;
     @Nullable
@@ -33,7 +34,15 @@ public class fragment4 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.layout4, null);
         data_list = new ArrayList<Map<String, Object>>();
-
+        hImageButtonSearch=(ImageButton)rootView.findViewById(R.id.imageSearch);
+        hImageButtonSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(getActivity().getApplicationContext(), H_search.class);
+                startActivity(intent);
+            }
+        });
         hImageButtonOnclick1=(ImageButton)rootView.findViewById(R.id.hImageButtonOnclick1);
         hImageButtonOnclick1.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,12 +1,19 @@
 package edu.neusoft.a124team.dietitian.haoDengKe;
 
+import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import edu.neusoft.a124team.dietitian.R;
 
@@ -44,7 +51,7 @@ public class H_breakfast2 extends AppCompatActivity {
         data.add(map5);
 
 
-       SimpleAdapter adapter=new SimpleAdapter(
+       MySimpleAdapter adapter=new MySimpleAdapter(
                 this,
                 data,
                 R.layout.activity_h_breakfast_item1,
@@ -53,5 +60,24 @@ public class H_breakfast2 extends AppCompatActivity {
         );
 
         listView.setAdapter(adapter);
+    }
+    class MySimpleAdapter extends SimpleAdapter {
+        public MySimpleAdapter(Context context, List<? extends Map<String,Object>> data, int  resource,
+                               String[] from, int[] to){
+            super(context,data,resource,from,to);}
+        public View getView(int position, View convertView, ViewGroup parent){
+            View result=super.getView(position, convertView,parent);
+            TextView textView=(TextView)result.findViewById(R.id.text1);
+            if (position%2==1) {
+                textView.setTextColor(Color.BLACK);
+                result.setBackgroundColor(Color.WHITE);
+            }
+            else {
+                textView.setTextColor(Color.RED);
+                result.setBackgroundColor(Color.GRAY);
+            }
+            return result;
+        }
+
     }
 }
