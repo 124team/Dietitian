@@ -74,7 +74,7 @@ public class H_search extends AppCompatActivity {
                 switch (position){
                     case 0:
                         Intent intent=new Intent();
-                        intent.setClass(H_search.this,H_milk.class);
+                        intent.setClass(H_search.this,H_harm.class);
                         startActivity(intent);
                         break;
                     case 1:

@@ -50,7 +50,6 @@ public class H_breakfast2 extends AppCompatActivity {
         map5.put("details","咸鲜味/煎");
         data.add(map5);
 
-
        MySimpleAdapter adapter=new MySimpleAdapter(
                 this,
                 data,
