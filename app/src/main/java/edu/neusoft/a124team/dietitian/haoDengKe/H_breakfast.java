@@ -29,7 +29,6 @@ public class H_breakfast extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_h_breakfast);
         listView=(ListView)findViewById(R.id.listView);
-
         HashMap<String,Object> map=new HashMap<>();
         map.put("img",R.drawable.h_breakfast_item1);
         map.put("Title","牛奶布丁");
