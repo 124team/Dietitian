@@ -24,7 +24,6 @@ import edu.neusoft.a124team.dietitian.R;
 public class H_breakfast extends AppCompatActivity {
     ListView listView;
     ArrayList<HashMap<String,Object>> data=new ArrayList<HashMap<String,Object>>();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
