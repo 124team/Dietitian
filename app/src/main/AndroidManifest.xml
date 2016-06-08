@@ -34,11 +34,17 @@
         </activity>
         <activity android:name=".haoDengKe.H_breakfast2">
         </activity>
-        <activity android:name=".wangHan.W_Adapter_test">
+        <activity android:name=".wangHan.W_ExpertsAnswer">
+        </activity>
+        <activity android:name=".wangHan.W_moreHotTxt">
+        </activity>
+        <activity android:name=".wangHan.W_mylove">
+        </activity>
+        <activity android:name=".wangHan.W_UserCommunicate">
+        </activity>
+        <activity android:name=".wangHan.W_workDisplay">
         </activity>
         <activity android:name=".haoDengKe.H_search">
-        </activity>
-        <activity android:name=".haoDengKe.H_harm">
         </activity>
     </application>
 
