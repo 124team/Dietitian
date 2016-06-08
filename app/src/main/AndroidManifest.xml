@@ -32,6 +32,8 @@
         </activity>
         <activity android:name=".haoDengKe.H_breakfast_item2">
         </activity>
+        <activity android:name=".haoDengKe.H_breakfast2">
+        </activity>
     </application>
 
 </manifest>

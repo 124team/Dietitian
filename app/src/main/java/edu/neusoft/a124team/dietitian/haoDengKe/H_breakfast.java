@@ -23,7 +23,6 @@ import edu.neusoft.a124team.dietitian.R;
 
 public class H_breakfast extends AppCompatActivity {
     ListView listView;
-
     ArrayList<HashMap<String,Object>> data=new ArrayList<HashMap<String,Object>>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,7 +116,9 @@ public class H_breakfast extends AppCompatActivity {
                 .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-
+                        Intent intent=new Intent();
+                        intent.setClass(H_breakfast.this,H_breakfast2.class);
+                        startActivity(intent);
                     }
                 }).show();
     }
