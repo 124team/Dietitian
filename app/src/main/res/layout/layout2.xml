@@ -655,6 +655,8 @@
             </TableRow>
             </TableLayout>
             <!--第二行儿童结束*********************************************** -->
+
+            <!--第三行老人*********************************************** -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="28dp"
@@ -687,6 +689,125 @@
                     android:drawableRight="@drawable/y_img_nutr_expansion"
                     android:text="@string/y_all_first_page"/>
             </LinearLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFCCFFFF"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                >
+                <TableRow>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        >
+                        <ImageView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/y_img_nutr_head"
+                            android:id="@+id/y_img_nutr_head9"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_name_of_nur1"
+                            android:layout_below="@+id/y_img_nutr_head9"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/y_name_of_nur9"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_levelOne"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/y_name_of_nur9"
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        >
+                        <ImageView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/y_img_nutr_head"
+                            android:id="@+id/y_img_nutr_head10"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_name_of_nur1"
+                            android:layout_below="@+id/y_img_nutr_head10"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/y_name_of_nur10"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_levelOne"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/y_name_of_nur10"
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        >
+                        <ImageView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/y_img_nutr_head"
+                            android:id="@+id/y_img_nutr_head11"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_name_of_nur1"
+                            android:layout_below="@+id/y_img_nutr_head11"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/y_name_of_nur11"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_levelOne"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/y_name_of_nur11"
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        >
+                        <ImageView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/y_img_nutr_head"
+                            android:id="@+id/y_img_nutr_head12"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_name_of_nur1"
+                            android:layout_below="@+id/y_img_nutr_head12"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/y_name_of_nur12"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/y_levelOne"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/y_name_of_nur12"
+                            />
+                    </RelativeLayout>
+                </TableRow>
+            </TableLayout>
+            <!--第三行老人************************************************* -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="28dp"
