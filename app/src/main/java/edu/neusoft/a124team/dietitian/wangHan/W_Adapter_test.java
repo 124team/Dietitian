@@ -5,12 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 
 import edu.neusoft.a124team.dietitian.R;
 
-public class H_test_1 extends AppCompatActivity {
+public class W_Adapter_test extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_h_test_2);
-        System.out.println("测试");
+        setContentView(R.layout.activity_w_adapter_test);
     }
 }
