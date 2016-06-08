@@ -30,7 +30,7 @@
             android:layout_height="30dp"
             android:layout_marginLeft="25dp"
             android:background="#ffffff"
-            android:src="@drawable/img_search_bar_magnifier"/>
+            android:src="@drawable/y_img_search_bar_magnifier"/>
 
     </LinearLayout>
 
