@@ -24,7 +24,7 @@ public class fragment3 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.layout3, container, false);
 
-        UserCommunication = (LinearLayout)view.findViewById(R.id.btn_user_community);
+        UserCommunication = (LinearLayout)view.findViewById(R.id.w_btn_communityLayout);
         UserCommunication.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +33,7 @@ public class fragment3 extends Fragment {
             }
         });
 
-        ExpertsAnswer = (LinearLayout)view.findViewById(R.id.btn_ExpertsAnswer);
+        ExpertsAnswer = (LinearLayout)view.findViewById(R.id.w_btn_expertsAnswerButton);
         ExpertsAnswer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +42,7 @@ public class fragment3 extends Fragment {
             }
         });
 
-        WorkDisplay = (LinearLayout)view.findViewById(R.id.btn_WorkDisplay);
+        WorkDisplay = (LinearLayout)view.findViewById(R.id.w_btn_workDisplayLayout);
         WorkDisplay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +51,7 @@ public class fragment3 extends Fragment {
             }
         });
 
-        MyLove = (LinearLayout)view.findViewById(R.id.btn_MyLove);
+        MyLove = (LinearLayout)view.findViewById(R.id.w_btn_myLoveLayout);
         MyLove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,7 +60,7 @@ public class fragment3 extends Fragment {
             }
         });
 
-        More = (LinearLayout)view.findViewById(R.id.btn_More);
+        More = (LinearLayout)view.findViewById(R.id.w_btn_moreButton);
         More.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

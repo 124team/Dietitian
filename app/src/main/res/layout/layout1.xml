@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     android:id="@+id/f1"
     android:layout_weight="1">
-    <TextView
+
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="首页"
-        android:textSize="30sp"
-        android:gravity="center"
-        />
+        android:id="@+id/listView">
+    </ListView>
+
 </LinearLayout>

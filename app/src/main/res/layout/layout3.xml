@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/f3"
     android:layout_weight="1"
     android:orientation="vertical">
 
@@ -27,13 +26,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:hint="搜索帖子"
+                    android:id="@+id/w_fragment_searchTxt"
                     />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="搜索" />
+                    android:text="搜索"
+                    android:id="@+id/w_fragment_searchButton"/>
 
             </LinearLayout>
 
@@ -53,7 +54,7 @@
                     android:layout_margin="3dp"
                     android:layoutDirection="rtl"
                     android:orientation="horizontal"
-                    android:id="@+id/btn_user_community">
+                    android:id="@+id/w_btn_communityLayout">
 
                     <TextView
                         android:layout_height="wrap_content"
@@ -82,7 +83,7 @@
                     android:layout_margin="3dp"
                     android:layoutDirection="rtl"
                     android:orientation="horizontal"
-                    android:id="@+id/btn_ExpertsAnswer">
+                    android:id="@+id/w_btn_expertsAnswerButton">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -111,7 +112,7 @@
                     android:layout_margin="3dp"
                     android:layoutDirection="rtl"
                     android:orientation="horizontal"
-                    android:id="@+id/btn_WorkDisplay">
+                    android:id="@+id/w_btn_workDisplayLayout">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -140,7 +141,7 @@
                     android:layout_margin="3dp"
                     android:layoutDirection="rtl"
                     android:orientation="horizontal"
-                    android:id="@+id/btn_MyLove">
+                    android:id="@+id/w_btn_myLoveLayout">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -165,7 +166,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:id="@+id/btn_More">
+                android:id="@+id/w_btn_moreButton">
 
                 <ImageView
                     android:layout_width="50dp"
@@ -189,23 +190,12 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <ListView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/box"
-                android:orientation="vertical">
+                android:layout_height="200dp"
+                android:id="@+id/w_fragment_listView">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:background="#dddddd"
-                    android:id="@+id/txt"
-                    android:orientation="vertical">
-
-                </LinearLayout>
-
-
-            </LinearLayout>
+            </ListView>
 
         </LinearLayout>
 
