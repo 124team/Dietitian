@@ -49,6 +49,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dip"
+                    android:background="#CCCCCC"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="布丁粉"
@@ -58,6 +61,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dip"
+                    android:background="#CCCCCC"
                     android:gravity="center"
                     android:text="一包"
                     android:textSize="15sp" />
@@ -70,6 +76,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dip"
+                    android:background="#CCCCCC"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="白糖"
@@ -78,6 +87,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="0.5dip"
+                    android:background="#CCCCCC"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="30克"
