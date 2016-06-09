@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         radio.setOnCheckedChangeListener(new onCheckchagnge());
 
         mvp=(ViewPager)findViewById(R.id.pager);
-        mvp.setOnPageChangeListener(new onPageChangeListener());
+        mvp.addOnPageChangeListener(new onPageChangeListener());
 
         fragmentArrayList = new ArrayList<Fragment>();
 
