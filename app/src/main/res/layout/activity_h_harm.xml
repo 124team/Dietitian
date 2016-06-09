@@ -302,17 +302,17 @@
                     />
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="400dp"
+                    android:layout_height="300dp"
                     android:src="@drawable/h_iamgeview_harm_step2"
                     android:layout_gravity="center_horizontal" />
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="400dp"
+                    android:layout_height="200dp"
                     android:src="@drawable/h_iamgeview_harm_step3"
                     android:layout_gravity="center_horizontal" />
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="400dp"
+                    android:layout_height="100dp"
                     android:src="@drawable/h_iamgeview_harm_step4"
                     android:layout_gravity="center_horizontal" />
             </LinearLayout>
@@ -320,26 +320,66 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
                 android:text="-烹饪技巧-"
                 android:textColor="#FF0000"
                 android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                android:text="●"
+                android:textColor="#ff0000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="10sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="煎蛋饼一定要用小火，火大很容易使底部糊上了上部还是流动的蛋液，也可以开小火用锅铲轻轻的翻炒"
                 android:textSize="15sp" />
-            <TextView
-                android:layout_width="wrap_content"
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:text="当蛋饼表面还有流动的蛋液是，就加入芝士丝马上卷起，如果蛋饼全熟了就卷不起来了"
-                android:textSize="15sp" />
-            <TextView
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="●"
+                    android:textColor="#ff0000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="当蛋饼表面还有流动的蛋液是，就加入芝士丝马上卷起，如果蛋饼全熟了就卷不起来了"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="这款蛋饼的口感还是比较软嫩的，如果喜欢稍熟的，可以多煎一会儿"
-                android:textSize="15sp" />
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="●"
+                    android:textColor="#ff0000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="这款蛋饼的口感还是比较软嫩的，如果喜欢稍熟的，可以多煎一会儿"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
         </LinearLayout>
 
 

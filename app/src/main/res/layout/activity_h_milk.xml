@@ -147,21 +147,61 @@
                 android:text="-烹饪技巧-"
                 android:textColor="#FF0000"
                 android:textSize="18sp" />
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="布丁粉等开水后放入，要不停搅匀，不能有干粉，也不能结块哦"
-                android:textSize="15sp" />
-            <TextView
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="●"
+                    android:textColor="#ff0000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="布丁粉等开水后放入，要不停搅匀，不能有干粉，也不能结块哦"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="水的用量也要根据布丁粉的多少来定，少一点亦可"
-                android:textSize="15sp" />
-            <TextView
-                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="●"
+                    android:textColor="#ff0000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="水的用量也要根据布丁粉的多少来定，少一点亦可"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="白糖根据个人口味添加哦"
-                android:textSize="15sp" />
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="●"
+                    android:textColor="#ff0000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="白糖根据个人口味添加哦"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
         </LinearLayout>
 
 

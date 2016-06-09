@@ -419,16 +419,44 @@
                 android:text="-烹饪技巧-"
                 android:textColor="#FF0000"
                 android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="●"
+                    android:textColor="#ff0000"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="由于汤汁中含有比较多的糖分，所以在汤汁逐渐收缩的时候要注意减少火力，并同过持续的翻炒保证受热的均匀，以防糊锅"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="由于汤汁中含有比较多的糖分，所以在汤汁逐渐收缩的时候要注意减少火力，并同过持续的翻炒保证受热的均匀，以防糊锅"
-                android:textSize="15sp" />
+                android:text="●"
+                android:textColor="#ff0000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="10sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="在炖烧排骨的汤汁是就将浓汤宝放入，充分融化煮沸，能让排骨在收汁之后呈现出更加浓厚的质感，体现出层层拉丝的汤汁质地"
                 android:textSize="15sp" />
+        </LinearLayout>
+
+
         </LinearLayout>
 
 
