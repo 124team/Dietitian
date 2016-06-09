@@ -10,6 +10,6 @@ public class H_fash extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_h_corn);
+        setContentView(R.layout.activity_h_fash);
     }
 }
